@@ -46,13 +46,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ComponentName: 
-  ScriptContents: "\nwatching = Space.Host.GetReference('object');\n\nfunction eventEnabled()\n
-    \   Space.Host.InvokeEvent('enabled')\nend\n\nfunction eventDisabled()\n    Space.Host.InvokeEvent('disabled')\nend\n\nwatching.OnEnable(eventEnabled)\nwatching.OnDisable(eventDisabled)\n"
-  Script: {fileID: 0}
+  ScriptContents: 
+  Script: {fileID: 11400000, guid: 6e8a25342eec28148ac8e81a6ff66bc0, type: 3}
   PublicVariables: []
   PublicVariablesLocked: 0
   ScriptFile: {fileID: 0}
   ScriptLibraries: []
+  ScriptLibraries2: []
   DefaultEvents: 0
   ResetBehaviour: 0
   AllowRuntimeScriptEditing: 0
